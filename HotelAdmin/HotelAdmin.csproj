@@ -53,12 +53,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
     <Compile Include="MainInterface.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,11 +67,14 @@
     <Compile Include="Regard.Designer.cs">
       <DependentUpon>Regard.cs</DependentUpon>
     </Compile>
+    <Compile Include="RoomRegulate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomRegulate.Designer.cs">
+      <DependentUpon>RoomRegulate.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainInterface.resx">
       <DependentUpon>MainInterface.cs</DependentUpon>
@@ -93,6 +90,9 @@
     </Compile>
     <EmbeddedResource Include="Regard.resx">
       <DependentUpon>Regard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomRegulate.resx">
+      <DependentUpon>RoomRegulate.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
