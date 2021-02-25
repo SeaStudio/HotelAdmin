@@ -12,10 +12,10 @@ using HotelModel;
 
 namespace HotelAdmin
 {
-    public partial class Form1 : Form
+    public partial class FrmLogin : Form
     {
         AdministratorManager atm = new AdministratorManager();
-        public Form1()
+        public FrmLogin()
         {
             InitializeComponent();
         }
